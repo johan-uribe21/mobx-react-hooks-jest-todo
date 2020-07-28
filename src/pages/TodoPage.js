@@ -1,8 +1,8 @@
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import { observer } from "mobx-react-lite";
 import { TaskStoreContext } from "stores/TaskStore";
 import { Column } from "components/organisms/Column";
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 const ColumnsContainer = styled.div`
   width: 100%;
